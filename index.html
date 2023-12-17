@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          &#128062; Adopt Me
+        </div>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about1">About</a></li>
+            <li><a href="#adopt">Adopt</a></li>
+            <li><a href="#contact1">Contact</a></li>
+            
+        </ul>
+    </nav>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign in</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="avatar.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Not now</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+    </header>
+
+    <div id="home">
+        <img src="main.jpg" alt="main image" id="main">
+    </div>
+
+    <div class="overlay-text" id="about" >
+      <p>Animals need</p>
+      <p id="secondParagraph">Your help</p>
+      <p id="thirdParagraph"><span style="font-size: 32px;">|</span>You can chip in with money & effort!  Cats and dogs</p>
+      <p id="fourthParagraph"><span style="font-size: 32px;">|</span>Adopt Any Pet You Like!</p>
+      <button class="donateBtn">Donate Now</button>
+    </div>
+
+    <div class="Adopt">
+      <p class="adoptPets" style="font-size: 35px; color: #ffff; margin-top:85px ;"><b>Adopt pets</b></p>
+      <p class="adoptPets" style="font-size: 65px; color: rgb(149, 81, 45);"><b>Bring a New Pet Home</b></p>
+      <p class="adoptPets" style="font-size: 25px; color: #ffff;">Ensure your puppies get off to a great start with our company. Whether you are <br>breeding your first litter or next 'Best in Show' winner, we proudly support dedicated <br>
+        responsible dog breeders like you.</p>
+    </div>
+
+    
+      <div id="adopt">
+        <div class="image">
+          <a href="animal 1 index.html" target="_blank"><img src="animal5.jpg" alt="first animal" class="animals" id="animal1"></a>
+          <a href="animal 2 index.html" target="_blank"><img src="animal4.jpg" alt="second animal" class="animals" id="animal2"></a>
+          <a href="animal 3 index.html" target="_blank"><img src="animal2.jpg" alt="third animal" class="animals" id="animal3"></a>
+        </div>
+        <div class="image">
+          <a href="animal 4 index.html" target="_blank"><img src="animal1.jpg" alt="fourth animal" class="animals" id="animal4"></a>
+          <a href=""><img src="animal6.jpg" alt="fifth animal" class="animals" id="animal5"></a>
+          <img src="animal3.jpg" alt="sixth animal" class="animals" id="animal6">
+      </div>
+
+
+      <div class="about" id="about1">
+        <p  class="aboutUs" style=" font-size: 120px; color: #ffff; margin-top:95px ;">
+          <b>About us</b>
+        </p>
+        <p class="aboutUs" style="font-size: 70px; color: rgb(123, 89, 44);">
+          What Makes Us Care <br>About Pets?
+        </p>
+        <p class="aboutUs" style="font-size: 35px; color: rgb(104, 80, 50);">
+          Adopt Me Animal Shelter is an open admission facility serving Jefferson County in the state of Colorado and is a member of the Metro Denver Animal Welfare Alliance. We are driven to make lives better for animals and people in our community.
+          We are a Socially Conscious Animal Welfare Organization, creating the best outcomes for all animals that enter our care. We place every healthy and safe animal for adoption. We assess the medical and behavioral needs of homeless animals and ensure these needs are thoughtfully addressed. And, we alleviate suffering through thoughtful euthanasia.
+          As a Fear Free Shelter, our team operates with the knowledge and tools to look after both a pet's physical and emotional wellbeing.
+        </p>
+        <img src="tabel.png" alt="statistics" id="statistics">
+      </div>
+
+      <div class="contact" id="contact1">
+        <p class="contactUs" style="font-size: 120px; color: #ffff;">
+          <b>Contact Us</b>
+        </p>
+        <p class="contactUs" style="font-size: 40px; color:rgb(104, 80, 50);">
+          Have a question? Looking for something special?<br>
+          Let us help! Tell us what you are looking for, what questions you have and we will help you find the answers.
+        </p>
+        <p class="contactUs" style="font-size: 20px; color: rgb(79, 54, 23);">
+          Open daily <br>
+          10 a.m. to 5 p.m. <br>
+          580 McIntyre Street <br>
+          Golden, CO, 80401 <br>
+          Get Directions <br>
+          Main: <span style="color: green;"><u>303.278.7575</u></span> <br>
+          License: <span style="color: green;"><u>303.278.7575</u></span> <br>
+          Fax: <span style="color: green;"><u>720.407.5234</u></span> <br>
+          info@fas4pets.org <br>
+        </p>
+      </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
